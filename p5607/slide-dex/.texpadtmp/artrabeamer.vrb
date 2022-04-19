@@ -1,0 +1,10 @@
+\frametitle{}
+
+^^I\begin{alertblock}{To-do:}
+^^I^^I\begin{itemize}
+^^I^^I^^I\item fix x-corr windows for following pairs: TR1, TR6, TR7
+^^I^^I^^I\item update velocity function with new sideblock geometry
+^^I^^I\end{itemize}
+^^I\end{alertblock}
+^^I
+

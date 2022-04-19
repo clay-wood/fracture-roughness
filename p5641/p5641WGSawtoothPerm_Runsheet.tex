@@ -1,0 +1,116 @@
+\documentclass[letterpaper, 10pt]{article}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{amsmath}  % improve math presentation
+\usepackage[left=0.75in,top=0.75in,bottom=0.2in,letterpaper]{geometry}
+\usepackage{setspace}
+\usepackage{enumitem}
+
+
+%----------------------------------------------
+
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Biax Experiment}}\\
+    {\small For current calibrations -- \texttt{gpfs/group/cjm38/default/Calibrations/}}\\
+    {\footnotesize \textit{Revised: 30 Nov. 2021}}
+\end{center}
+
+
+
+\begin{table}[!ht]
+	\renewcommand{\arraystretch}{1.1}
+	\begin{tabular}{p{10cm} p{10cm} }
+	    \textbf{Exp. Name: }p5641WGSawtoothPerm & \textbf{Date/Time: }14/02/2022\\
+	    \textbf{Operator(s): }Wood, Borate, Ke & Hydraulics start: 5015.4 \\
+	    Temperature ($\degree$C): 22.4 & Hydraulics end: 5017.4 \\
+	    Relative Humidity ($\%$): 12 & Data Logger/Control File: 16-chan \\
+	\end{tabular}
+\end{table} 
+\vspace{-0.5cm} 
+
+\begin{table}[!ht]
+	\renewcommand{\arraystretch}{1.1}
+	\begin{tabular}{p{20cm}}\textbf{Purpose/Description:} Measure permeability of L-block of Westerly Granite with machined roughness. \\1mm wavelength, 0.5mm amp, 0.05mm `random' roughness (laser). Load up to ~10 kN, check acoustics,\\ then flow-through test.  \\Sample Block Used and Thickness with \textbf{no} Sample: SDS Vessel 5x5 cm \\
+	\end{tabular}
+    \end{table} \vspace{-0.5cm} 
+
+\begin{table}[!ht]
+        \small
+        \renewcommand{\arraystretch}{1.2}
+        \begin{tabular}{ |p{7cm}| } \hline 
+Material: Westerly Granite. Sawtooth profile. \\ \hline \end{tabular} \end{table} \vspace{-0.5cm} 
+
+\begin{table}[ht!]
+        \renewcommand{\arraystretch}{1.5}
+        \begin{tabular}{ |p{2.75cm}|p{4cm}|p{3.5cm}|p{2.5cm}| p{3cm}| }
+            \multicolumn{3}{l}{\textbf{\textit{Load Cells:}}} & \multicolumn{2}{l}{Contact Area: 0.0022231311 $ m^2 $}\\ \hline
+            \textbf{Load cell name} & \textbf{Calibrations (mV/kN)} & \textbf{Target stress (MPa)} & \textbf{Init. Voltage} & \textbf{Volt. @ load}\\
+            \hline
+            44mm Solid Horiz & \begin{tabular}[c]{@{}l@{}}129.954\\ (V/MPa): 0.2889\end{tabular} & 9.25 & -1.0236 & 1.64877\\ \hline44mm Solid Vert & \begin{tabular}[c]{@{}l@{}}120.364\\ (V/MPa): 0.2676\end{tabular} & 0 & 0 & 0.\\ \hline
+    \end{tabular}
+    \end{table} \vspace{-0.5cm} 
+
+\begin{table}[ht!]
+            \renewcommand{\arraystretch}{1.5}
+            \begin{tabular}{ |p{4cm}|p{5cm}|p{2.5cm}| p{4.75cm}| }
+            \multicolumn{2}{l}{\textbf{\textit{Vessel Pressures:}}} & \multicolumn{2}{l}{Pore Fluid:DI H2O} \\ \hline
+            \textbf{Calibrations (V/MPa)} & \textbf{Pressures (MPa)} & \textbf{Init. Voltage} & \textbf{Volt. @ load} \\ \hline\textit{\small Pc:} 0.1456 & 8.25 & -0.2202 & 0.981\\ \hline\textit{\small PpA:} 1.5177 & 2.6, 2.4, 2, 1.4 & -0.134 & 3.81202, 3.50848, 2.9014 , 1.99078\\ \hline\textit{\small PpB:} 1.483 & 2.6 & -0.576 & 3.2798\\ \hline \end{tabular}
+        \end{table} \vspace{-0.5cm} 
+
+\begin{table}[ht!]
+    \small
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{ l l } 
+        \multicolumn{2}{c}{\textbf{\textit{Displacement Transducers}}} \\
+        \textbf{\textit{Name}} & \textbf{\textit{Gain (mm/V)}} \\ \hline Horiz. Load-point &  0.658 \\ \hline Vert. Load-point &  3.51 \\ \hline Horiz. On-Board &  0.416 \\ \hline  \end{tabular}
+    \end{table} \vspace{-0.5cm} 
+
+\begin{table}[!ht]
+        \footnotesize
+        \renewcommand{\arraystretch}{1.1}
+        \begin{tabular}{ p{1cm}|p{2cm} } \rowcolor[HTML]{EFEFEF}
+            \multicolumn{2}{c}{\textit{Horizontal Servo Settings} \cellcolor[HTML]{EFEFEF}} \\ \hline P: 850 & D$_{atten}$: 10 \\ \hline
+        I: 80 & Feedback: 512 \\ \hline 
+        D: 10 & E-gain: 800 \\ \hline 
+        \multicolumn{2}{c}{\textit{Vertical Servo Settings} \cellcolor[HTML]{EFEFEF}} \\ \hline 
+        P: -- & D$_{atten}$  -- \\ \hline 
+        I: -- & Feedback: -- \\ \hline
+        D: -- & E-gain: -- \\ \hline 
+    \end{tabular} \hfill 
+        \renewcommand{\arraystretch}{1.1}
+        \begin{tabular}{ l|l|l } \rowcolor[HTML]{EFEFEF}
+        \textit{Chilled water at HPS} & \textit{Chiller Unit} & \textit{Proc. water @ Chiller} \\ \hline 1. Temp In ($\degree$F):  & 6. Panel Temp ($\degree$F):  & 10. Temp In ($\degree$F):  \\ \hline 
+    2. Pres. In (psi):  & 7. Panel Pres. (psi):  & 11. Pres. In (psi):  \\ \hline 
+    3. Temp Out ($\degree$F):  & 8. Near Pres. In (psi): & 12. Temp Out ($\degree$F):  \\ \hline 
+    4. Pres. Out (psi): & 9. Near Pres. Out (psi): & 13. Pres. Out (psi):  \\ \hline 
+    5. Flow (lpm):  \\ \hline 
+    \multicolumn{3}{c}{\textit{Hyd. Power Supply (HPS)} \cellcolor[HTML]{EFEFEF}} \\ \hline 
+    14. Tank Temp ($\degree$C):  & 15. Temp. Out ($\degree$C):  & 16. Pres. Out (psi):  \\ \hline 
+    \end{tabular} 
+    \end{table} \vspace{-0.5cm} 
+
+\newpage 
+ \textbf{Experiment Notes}
+ \medskip
+ {\small \begin{itemize}[label=\#]
+ \setlength\itemsep{0.25em}
+ 	 \item 225 go to 10 kN, hold and check acoustics
+ 	 \item 1610 fill PpA, PpB
+ 	 \item 1750 NS to 9.25 MPa
+ 	 \item 1950 DCDT offset
+ 	 \item 3250 Pc to 8.25 MPa
+ 	 \item 3560 PpB to 1 MPa
+ 	 \item 4434 PpA to 2.4 MPa -- seems very permeable
+ 	 \item 5974 PpA to $\approx$ 2.0 MPa
+ 	 \item 7600 PpA to 1.4 MPa
+ 	 \item 8200 PpB, PpA to 0 MPa
+ 	 \item 9550 Remove Pc, NS
+ \end{itemize}} 
+
+ \end{document}
+
+\end{document}

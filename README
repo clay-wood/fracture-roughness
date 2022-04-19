@@ -1,0 +1,3 @@
+from readHDF import readH5
+
+data_h5 = readH5("p5652_py.h5")

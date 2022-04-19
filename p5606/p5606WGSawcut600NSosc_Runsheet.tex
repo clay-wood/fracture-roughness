@@ -1,0 +1,117 @@
+\documentclass[letterpaper, 10pt]{article}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{amsmath}  % improve math presentation
+\usepackage[left=0.75in,top=0.75in,bottom=0.2in,letterpaper]{geometry}
+\usepackage{setspace}
+\usepackage{enumitem}
+
+
+%----------------------------------------------
+
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Biax Experiment}}\\
+    {\small For current calibrations -- \texttt{gpfs/group/cjm38/default/Calibrations/}}\\
+    {\footnotesize \textit{Revised: 30 Nov. 2021}}
+\end{center}
+
+
+
+\begin{table}[!ht]
+	\renewcommand{\arraystretch}{1.1}
+	\begin{tabular}{p{10cm} p{10cm} }
+	    \textbf{Exp. Name: }p5606WGSawcut600NSosc & \textbf{Date/Time: }03/01/2022\\
+	    \textbf{Operator(s): }Wood & Hydraulics start: 4859.3 \\
+	    Temperature ($\degree$C):  & Hydraulics end:  \\
+	    Relative Humidity ($\%$):  & Data Logger/Control File: 16-chan \\
+	\end{tabular}
+\end{table} 
+\vspace{-0.5cm} 
+
+\begin{table}[!ht]
+	\renewcommand{\arraystretch}{1.1}
+	\begin{tabular}{p{20cm}}\textbf{Purpose/Description:}  \\Sample Block Used and Thickness with \textbf{no} Sample: SDS Vessel 5x5 cm \\
+	\end{tabular}
+    \end{table} \vspace{-0.5cm} 
+
+\begin{table}[!ht]
+        \small
+        \renewcommand{\arraystretch}{1.2}
+        \begin{tabular}{ |p{7cm}| } \hline 
+Material: Westerly Granite, Sawcut \\Benchtop Sample Thickness (mm): 32.5 \\ \hline \end{tabular} \end{table} \vspace{-0.5cm} 
+
+\begin{table}[ht!]
+        \renewcommand{\arraystretch}{1.5}
+        \begin{tabular}{ |p{2.75cm}|p{4cm}|p{3.5cm}|p{2.5cm}| p{3cm}| }
+            \multicolumn{3}{l}{\textbf{\textit{Load Cells:}}} & \multicolumn{2}{l}{Contact Area: 0.0022231311 $ m^2 $}\\ \hline
+            \textbf{Load cell name} & \textbf{Calibrations (mV/kN)} & \textbf{Target stress (MPa)} & \textbf{Init. Voltage} & \textbf{Volt. @ load}\\
+            \hline
+            44mm Solid Horiz & \begin{tabular}[c]{@{}l@{}}129.984\\ (V/MPa): 0.289\end{tabular} & 4, 9.25, 11, 13, 15, 18 & -1.005 & 0.15089, 1.66799, 2.17369, 2.75163, 3.32957, 4.19649\\ \hline44mm Solid Vert & \begin{tabular}[c]{@{}l@{}}120.364\\ (V/MPa): 0.2676\end{tabular} & 0 & 3.603 & 3.603\\ \hline
+    \end{tabular}
+    \end{table} \vspace{-0.5cm} 
+
+\begin{table}[ht!]
+            \renewcommand{\arraystretch}{1.5}
+            \begin{tabular}{ |p{4cm}|p{5cm}|p{2.5cm}| p{4.75cm}| }
+            \multicolumn{2}{l}{\textbf{\textit{Vessel Pressures:}}} & \multicolumn{2}{l}{Pore Fluid:DI H2O} \\ \hline
+            \textbf{Calibrations (V/MPa)} & \textbf{Pressures (MPa)} & \textbf{Init. Voltage} & \textbf{Volt. @ load} \\ \hline\textit{\small Pc:} 0.1456 & 2, 8.25, 10.5, 12, 13.5, 12 & -0.2498 & 0.0414, 0.9514, 1.279 , 1.4974, 1.7158, 1.4974\\ \hline\textit{\small PpA:} 1.5177 & 2.6, 1.4 & -0.0532 & 3.89282, 2.07158\\ \hline\textit{\small PpA:} 1.483 & 2.6 & -0.597 & 3.2588\\ \hline \end{tabular}
+        \end{table} \vspace{-0.5cm} 
+
+\begin{table}[ht!]
+    \small
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{ l l } 
+        \multicolumn{2}{c}{\textbf{\textit{Displacement Transducers}}} \\
+        \textbf{\textit{Name}} & \textbf{\textit{Gain (mm/V)}} \\ \hline Horiz. Load-point &  0.658 \\ \hline Vert. Load-point &  3.51 \\ \hline Horiz. On-Board &  0.416 \\ \hline  \end{tabular}
+    \end{table} \vspace{-0.5cm} 
+
+\begin{table}[!ht]
+        \footnotesize
+        \renewcommand{\arraystretch}{1.1}
+        \begin{tabular}{ p{1cm}|p{2cm} } \rowcolor[HTML]{EFEFEF}
+            \multicolumn{2}{c}{\textit{Horizontal Servo Settings} \cellcolor[HTML]{EFEFEF}} \\ \hline P: 900 & D$_{atten}$: 10 \\ \hline
+        I: 80 & Feedback: 512 \\ \hline 
+        D: 10 & E-gain: 800 \\ \hline 
+        \multicolumn{2}{c}{\textit{Vertical Servo Settings} \cellcolor[HTML]{EFEFEF}} \\ \hline 
+        P:  & D$_{atten}$   \\ \hline 
+        I:  & Feedback:  \\ \hline
+        D:  & E-gain:  \\ \hline 
+    \end{tabular} \hfill 
+        \renewcommand{\arraystretch}{1.1}
+        \begin{tabular}{ l|l|l } \rowcolor[HTML]{EFEFEF}
+        \textit{Chilled water at HPS} & \textit{Chiller Unit} & \textit{Proc. water @ Chiller} \\ \hline 1. Temp In ($\degree$F):  & 6. Panel Temp ($\degree$F):  & 10. Temp In ($\degree$F):  \\ \hline 
+    2. Pres. In (psi):  & 7. Panel Pres. (psi):  & 11. Pres. In (psi):  \\ \hline 
+    3. Temp Out ($\degree$F):  & 8. Near Pres. In (psi): & 12. Temp Out ($\degree$F):  \\ \hline 
+    4. Pres. Out (psi): & 9. Near Pres. Out (psi): & 13. Pres. Out (psi):  \\ \hline 
+    5. Flow (lpm):  \\ \hline 
+    \multicolumn{3}{c}{\textit{Hyd. Power Supply (HPS)} \cellcolor[HTML]{EFEFEF}} \\ \hline 
+    14. Tank Temp ($\degree$C):  & 15. Temp. Out ($\degree$C):  & 16. Pres. Out (psi):  \\ \hline 
+    \end{tabular} 
+    \end{table} \vspace{-0.5cm} 
+
+\newpage 
+ \textbf{Experiment Notes}
+ \medskip
+ {\small \begin{itemize}[label=\#]
+ \setlength\itemsep{0.25em}
+ 	 \item 70 @ 5kN. check acoustics. put on front door.
+ 	 \item 2340 NS to 4 MPa 
+ 	 \item 2880 Pc to 2 MPa
+ 	 \item 3050 fill PpB
+ 	 \item 3280 saturate sample.
+ 	 \item 7500 10 Hz. NS to 9.25 MPa, Pc to 8.25 MPa. Int DCDT doesn't seem to track stress increase.
+ 	 \item 12100 PpA \& PpB to 2.6 MPa, Int DCDT still isn't registering changes. 
+ 	 \item 21000 Practice NS oscillation. PpA to 1.4 MPa. Begin 0.5 MPa osc. @ 1 Hz. Int DCDT does not measure oscillation, even @ 1MPa amp.
+ 	 \item 39630 Remove stresses and remove door. 
+ 	 \item 40640 adjust int dcdt
+ 	 \item 
+ 	 \item 
+ \end{itemize}} 
+
+ \end{document}
+
+\end{document}

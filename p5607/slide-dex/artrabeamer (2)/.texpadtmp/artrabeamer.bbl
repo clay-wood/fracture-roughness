@@ -1,0 +1,245 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{mo2018immersed}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=65f364367ea8a1d8d9c192792bb77fae}{%
+           family={Mo},
+           familyi={M\bibinitperiod},
+           given={Huangrui},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95d0fdd250c53ba4d0b5521952b5ccdb}{%
+           family={Lien},
+           familyi={L\bibinitperiod},
+           given={Fue-Sang},
+           giveni={F\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae021641a8f85fd2607152ab99ed115b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Fan},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b5eda65e47150c162c541ce52a5b419}{%
+           family={Cronin},
+           familyi={C\bibinitperiod},
+           given={Duane},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{c3039b597cff991c4f45a2bb4e07604e}
+      \strng{fullhash}{d3c66b46b782116aad78f2d1bc1dc9c1}
+      \strng{bibnamehash}{c3039b597cff991c4f45a2bb4e07604e}
+      \strng{authorbibnamehash}{c3039b597cff991c4f45a2bb4e07604e}
+      \strng{authornamehash}{c3039b597cff991c4f45a2bb4e07604e}
+      \strng{authorfullhash}{d3c66b46b782116aad78f2d1bc1dc9c1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Int. J. Numer. Methods Fluids}
+      \field{number}{5}
+      \field{title}{An immersed boundary method for solving compressible flow with arbitrarily irregular and moving geometry}
+      \field{volume}{88}
+      \field{year}{2018}
+      \field{pages}{239\bibrangedash 263}
+      \range{pages}{25}
+    \endentry
+    \entry{reed2008transient}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=e06c7f8752f33d34ac64d03210c34e30}{%
+           family={Reed},
+           familyi={R\bibinitperiod},
+           given={Evan\bibnamedelima J},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db31284455427a9d90785c5c0e091ea7}{%
+           family={Manaa},
+           familyi={M\bibinitperiod},
+           given={M\bibnamedelima Riad},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b78830843955f645c9eaf8a276c2156d}{%
+           family={Fried},
+           familyi={F\bibinitperiod},
+           given={Laurence\bibnamedelima E},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5b8331b22cba575d4904f6f0571f939}{%
+           family={Glaesemann},
+           familyi={G\bibinitperiod},
+           given={Kurt\bibnamedelima R},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc2d5931b89f57220ca190721e241846}{%
+           family={Joannopoulos},
+           familyi={J\bibinitperiod},
+           given={JD},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{922d7a0b2dc5730e245621262a3b43d9}
+      \strng{fullhash}{b7037e7365b99a41deca1ec5bc7138a2}
+      \strng{bibnamehash}{922d7a0b2dc5730e245621262a3b43d9}
+      \strng{authorbibnamehash}{922d7a0b2dc5730e245621262a3b43d9}
+      \strng{authornamehash}{922d7a0b2dc5730e245621262a3b43d9}
+      \strng{authorfullhash}{b7037e7365b99a41deca1ec5bc7138a2}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nat. Phys.}
+      \field{number}{1}
+      \field{title}{A transient semimetallic layer in detonating nitromethane}
+      \field{volume}{4}
+      \field{year}{2008}
+      \field{pages}{72}
+      \range{pages}{1}
+    \endentry
+    \entry{sod1978survey}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=08b2528be7eb8803228e07d04d49525c}{%
+           family={Sod},
+           familyi={S\bibinitperiod},
+           given={Gary\bibnamedelima A},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier, Amsterdam}%
+      }
+      \strng{namehash}{08b2528be7eb8803228e07d04d49525c}
+      \strng{fullhash}{08b2528be7eb8803228e07d04d49525c}
+      \strng{bibnamehash}{08b2528be7eb8803228e07d04d49525c}
+      \strng{authorbibnamehash}{08b2528be7eb8803228e07d04d49525c}
+      \strng{authornamehash}{08b2528be7eb8803228e07d04d49525c}
+      \strng{authorfullhash}{08b2528be7eb8803228e07d04d49525c}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Comput. Phys.}
+      \field{number}{1}
+      \field{title}{A survey of several finite difference methods for systems of nonlinear hyperbolic conservation laws}
+      \field{volume}{27}
+      \field{year}{1978}
+      \field{pages}{1\bibrangedash 31}
+      \range{pages}{31}
+    \endentry
+    \entry{zhang2010hybrid}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6e8985d8cb66644995173e9d72791746}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37fc75bc7979967ce0b7301b7a41def4}{%
+           family={Yoshinaka},
+           familyi={Y\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55b22ae8e9b44fdeba35203679229652}{%
+           family={Ripley},
+           familyi={R\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{59ab70d10a2fe50f07c8ab1dff83bc5e}
+      \strng{fullhash}{9376ed0a2c13e724c9da7e5b1ed03151}
+      \strng{bibnamehash}{9376ed0a2c13e724c9da7e5b1ed03151}
+      \strng{authorbibnamehash}{9376ed0a2c13e724c9da7e5b1ed03151}
+      \strng{authornamehash}{59ab70d10a2fe50f07c8ab1dff83bc5e}
+      \strng{authorfullhash}{9376ed0a2c13e724c9da7e5b1ed03151}
+      \field{extraname}{1}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. 14th Int. Detonation Symp.}
+      \field{title}{Hybrid detonation waves in metalized explosive mixtures}
+      \field{year}{2010}
+      \field{pages}{11\bibrangedash 16}
+      \range{pages}{6}
+    \endentry
+    \entry{zhang2009reaction}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ae021641a8f85fd2607152ab99ed115b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Fan},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d754037e5afea20f503dcd2c847f5bd}{%
+           family={Gerrard},
+           familyi={G\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6d1288e553732c263e0e7cca7b46166}{%
+           family={Ripley},
+           familyi={R\bibinitperiod},
+           given={Robert\bibnamedelima C},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b34ec7ee85af98aed1e55ed4599fbd0e}
+      \strng{fullhash}{6b83802ae9f4c0f4ba0b21446d784ce1}
+      \strng{bibnamehash}{6b83802ae9f4c0f4ba0b21446d784ce1}
+      \strng{authorbibnamehash}{6b83802ae9f4c0f4ba0b21446d784ce1}
+      \strng{authornamehash}{b34ec7ee85af98aed1e55ed4599fbd0e}
+      \strng{authorfullhash}{6b83802ae9f4c0f4ba0b21446d784ce1}
+      \field{extraname}{2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Propuls. Power}
+      \field{number}{4}
+      \field{title}{Reaction mechanism of aluminum-particle-air detonation}
+      \field{volume}{25}
+      \field{year}{2009}
+      \field{pages}{845\bibrangedash 858}
+      \range{pages}{14}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

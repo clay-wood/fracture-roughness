@@ -1,0 +1,134 @@
+\documentclass[letterpaper, 10pt]{article}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{amsmath}  % improve math presentation
+\usepackage[left=0.75in,top=0.75in,bottom=0.2in,letterpaper]{geometry}
+\usepackage{setspace}
+\usepackage{enumitem}
+
+
+%----------------------------------------------
+
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Biax Experiment}}\\
+    {\small For current calibrations -- \texttt{gpfs/group/cjm38/default/Calibrations/}}\\
+    {\footnotesize \textit{Revised: 30 Nov. 2021}}
+\end{center}
+
+
+
+\begin{table}[!ht]
+	\renewcommand{\arraystretch}{1.1}
+	\begin{tabular}{p{10cm} p{10cm} }
+	    \textbf{Exp. Name: }p5642WGSawtootNSosc & \textbf{Date/Time: }15/02/2022\\
+	    \textbf{Operator(s): }Wood, Borate, Ke & Hydraulics start: 5017.4 \\
+	    Temperature ($\degree$C): 22 & Hydraulics end: 5023.9 \\
+	    Relative Humidity ($\%$): 9 & Data Logger/Control File: 16-chan \\
+	\end{tabular}
+\end{table} 
+\vspace{-0.5cm} 
+
+\begin{table}[!ht]
+	\renewcommand{\arraystretch}{1.1}
+	\begin{tabular}{p{20cm}}\textbf{Purpose/Description:} DAET oscillate NS. Effect of roughness on nonlinear elasticity of dynamically-stressed rock. \\L-block of Westerly with machined roughness. 1mm wavelength, 0.5mm amp, 0.05mm ‘random’ roughness (laser). \\Sample Block Used and Thickness with \textbf{no} Sample: SDS Vessel 5x5 cm \\
+	\end{tabular}
+    \end{table} \vspace{-0.5cm} 
+
+\begin{table}[!ht]
+        \small
+        \renewcommand{\arraystretch}{1.2}
+        \begin{tabular}{ |p{7cm}| } \hline 
+Material: Westerly Granite.  \\ \hline \end{tabular} \end{table} \vspace{-0.5cm} 
+
+\begin{table}[ht!]
+        \renewcommand{\arraystretch}{1.5}
+        \begin{tabular}{ |p{2.75cm}|p{4cm}|p{3.5cm}|p{2.5cm}| p{3cm}| }
+            \multicolumn{3}{l}{\textbf{\textit{Load Cells:}}} & \multicolumn{2}{l}{Contact Area: 0.0022231311 $ m^2 $}\\ \hline
+            \textbf{Load cell name} & \textbf{Calibrations (mV/kN)} & \textbf{Target stress (MPa)} & \textbf{Init. Voltage} & \textbf{Volt. @ load}\\
+            \hline
+            44mm Solid Horiz & \begin{tabular}[c]{@{}l@{}}129.954\\ (V/MPa): 0.2889\end{tabular} & 6, 9.25, 11, 13, 15, 18 & -1.016 & 0.71743, 1.65637, 2.16195, 2.73976, 3.31757, 4.18429\\ \hline44mm Solid Vert & \begin{tabular}[c]{@{}l@{}}120.364\\ (V/MPa): 0.2676\end{tabular} & 0 & 0 & 0.\\ \hline
+    \end{tabular}
+    \end{table} \vspace{-0.5cm} 
+
+\begin{table}[ht!]
+            \renewcommand{\arraystretch}{1.5}
+            \begin{tabular}{ |p{4cm}|p{5cm}|p{2.5cm}| p{4.75cm}| }
+            \multicolumn{2}{l}{\textbf{\textit{Vessel Pressures:}}} & \multicolumn{2}{l}{Pore Fluid:DI H20} \\ \hline
+            \textbf{Calibrations (V/MPa)} & \textbf{Pressures (MPa)} & \textbf{Init. Voltage} & \textbf{Volt. @ load} \\ \hline\textit{\small Pc:} 0.1456 & 3, 8.25, 10.5, 12, 13.5, 12 & -0.259 & 0.1778, 0.9422, 1.2698, 1.4882, 1.7066, 1.4882\\ \hline\textit{\small PpA:} 1.5177 & 2.6, 2.4, 2.0, 1.4 & -0.1209 & 3.82512, 3.52158, 2.9145 , 2.00388\\ \hline\textit{\small PpB:} 1.483 & 2.6 & -0.567 & 3.2888\\ \hline \end{tabular}
+        \end{table} \vspace{-0.5cm} 
+
+\begin{table}[ht!]
+    \small
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{ l l } 
+        \multicolumn{2}{c}{\textbf{\textit{Displacement Transducers}}} \\
+        \textbf{\textit{Name}} & \textbf{\textit{Gain (mm/V)}} \\ \hline Horiz. Load-point &  0.658 \\ \hline Vert. Load-point &  3.51 \\ \hline Horiz. On-Board &  0.416 \\ \hline  \end{tabular}
+    \end{table} \vspace{-0.5cm} 
+
+\begin{table}[!ht]
+        \footnotesize
+        \renewcommand{\arraystretch}{1.1}
+        \begin{tabular}{ p{1cm}|p{2cm} } \rowcolor[HTML]{EFEFEF}
+            \multicolumn{2}{c}{\textit{Horizontal Servo Settings} \cellcolor[HTML]{EFEFEF}} \\ \hline P: 900 & D$_{atten}$: 10 \\ \hline
+        I: 80 & Feedback: 512 \\ \hline 
+        D: 10 & E-gain: 800 \\ \hline 
+        \multicolumn{2}{c}{\textit{Vertical Servo Settings} \cellcolor[HTML]{EFEFEF}} \\ \hline 
+        P: -- & D$_{atten}$  -- \\ \hline 
+        I: -- & Feedback: -- \\ \hline
+        D: -- & E-gain: -- \\ \hline 
+    \end{tabular} \hfill 
+        \renewcommand{\arraystretch}{1.1}
+        \begin{tabular}{ l|l|l } \rowcolor[HTML]{EFEFEF}
+        \textit{Chilled water at HPS} & \textit{Chiller Unit} & \textit{Proc. water @ Chiller} \\ \hline 1. Temp In ($\degree$F): 58 & 6. Panel Temp ($\degree$F): 66 & 10. Temp In ($\degree$F): 80 \\ \hline 
+    2. Pres. In (psi): 6 & 7. Panel Pres. (psi): 47 & 11. Pres. In (psi): 2 \\ \hline 
+    3. Temp Out ($\degree$F): 79 & 8. Near Pres. In (psi): 2& 12. Temp Out ($\degree$F): 48 \\ \hline 
+    4. Pres. Out (psi): 2& 9. Near Pres. Out (psi): 6& 13. Pres. Out (psi): 8 \\ \hline 
+    5. Flow (lpm): 15 \\ \hline 
+    \multicolumn{3}{c}{\textit{Hyd. Power Supply (HPS)} \cellcolor[HTML]{EFEFEF}} \\ \hline 
+    14. Tank Temp ($\degree$C):   125.5 & 15. Temp. Out ($\degree$C): 15 & 16. Pres. Out (psi): 2800 \\ \hline 
+    \end{tabular} 
+    \end{table} \vspace{-0.5cm} 
+
+\newpage 
+ \textbf{Experiment Notes}
+ \medskip
+ {\small \begin{itemize}[label=\#]
+ \setlength\itemsep{0.25em}
+ 	 \item 2285 NS to 6 MPa
+ 	 \item 2540 Pc to 3 MPa
+ 	 \item 2770 refill PpB, empty PpA
+ 	 \item 3050 PpB, PpA to 2.6 MPa. Difficult to prevent flow -- very permeable
+ 	 \item 13000 100 Hz, NS osc. Flow rate seems to vary slightly in response to osc.
+ 	 \item 104200 NS to 9.25 MPa, Pc to 8.25 MPa
+ 	 \item 104470 refill PpB, empty PpA
+ 	 \item 105825 10Hz, PpB, PpA to 2.6 MPa.
+ 	 \item 109600 1000 Hz, NS osc. set. run1
+ 	 \item 9337100 refill PpB, empty PpA
+ 	 \item 933950 NS to 11 MPa, Pc to 10.5 MPa
+ 	 \item 934100 10Hz, PpB, PpA to 2.6 MPa.
+ 	 \item 936300 1000 Hz, NS osc. set. run2
+ 	 \item 1768700 NS to 13 MPa, Pc to 12 MPa. 
+ 	 \item 1769700 1000 Hz, NS osc. set. run3
+ 	 \item 2597000 NS to 15 MPa, Pc to 13.5 MPa. 
+ 	 \item 2598900 refill PpB, empty PpA
+ 	 \item 2599000 10Hz, PpB, PpA to 2.6 MPa.
+ 	 \item 2601500 1000 Hz, NS osc. set. run4
+ 	 \item 3431000 NS to 18 MPa, Pc to 12 MPa.
+ 	 \item 3431300 10Hz, PpB, PpA to 2.6 MPa.
+ 	 \item 3433000 1000 Hz, NS osc. set. run5. several electrical spikes in NS. 
+ 	 \item 4260500 NS to 13 MPa, Pc to 12 MPa. 
+ 	 \item 4260800 1000 Hz, NS osc. set. run6
+ 	 \item 5151700 refill PpB, empty PpA
+ 	 \item 5152200 NS to 9.25 MPa, Pc to 8.25 MPa
+ 	 \item 51528000 1000 Hz, NS osc. set. run7
+ 	 \item 6077790 remove PpA, PpB, Pc
+
+ \end{itemize}} 
+
+ \end{document}
+
+\end{document}
