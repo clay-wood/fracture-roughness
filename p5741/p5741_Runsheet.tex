@@ -1,0 +1,124 @@
+\documentclass[letterpaper, 10pt]{article}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{amsmath}  % improve math presentation
+\usepackage[left=0.75in,top=0.75in,bottom=0.2in,letterpaper]{geometry}
+\usepackage{setspace}
+\usepackage{enumitem}
+
+
+%----------------------------------------------
+
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Biax Experiment}}\\
+    {\small For current calibrations -- \texttt{gpfs/group/cjm38/default/Calibrations/}}\\
+    {\footnotesize \textit{Revised: 30 Nov. 2021}}
+\end{center}
+
+
+
+\begin{table}[!ht]
+	\renewcommand{\arraystretch}{1.1}
+	\begin{tabular}{p{10cm} p{10cm} }
+	    \textbf{Exp. Name: }p5741 & \textbf{Date/Time: }23/06/2022\\
+	    \textbf{Operator(s): }Wood & Hydraulics start: 5380.2 \\
+	    Temperature ($\degree$C):  & Hydraulics end: 5385.2 \\
+	    Relative Humidity ($\%$):  & Data Logger/Control File: 16-chan \\
+	\end{tabular}
+\end{table} 
+\vspace{-0.5cm} 
+
+\begin{table}[!ht]
+	\renewcommand{\arraystretch}{1.1}
+	\begin{tabular}{p{20cm}}\textbf{Purpose/Description:} Saw-cut L-block roughened with \#80 grit. Try to measure change in outlet flow rate.\\  \\Sample Block Used and Thickness with \textbf{no} Sample: SDS Vessel 5x5 cm \\
+	\end{tabular}
+    \end{table} \vspace{-0.5cm} 
+
+\begin{table}[!ht]
+        \small
+        \renewcommand{\arraystretch}{1.2}
+        \begin{tabular}{ |p{7cm}| } \hline 
+Material: Westerly Granite \\Benchtop Sample Thickness (mm): 32.5 \\ \hline \end{tabular} \end{table} \vspace{-0.5cm} 
+
+\begin{table}[ht!]
+        \renewcommand{\arraystretch}{1.5}
+        \begin{tabular}{ |p{2.75cm}|p{4cm}|p{3.5cm}|p{2.5cm}| p{3cm}| }
+            \multicolumn{3}{l}{\textbf{\textit{Load Cells:}}} & \multicolumn{2}{l}{Contact Area: 0.0022231311 $ m^2 $}\\ \hline
+            \textbf{Load cell name} & \textbf{Calibrations (mV/kN)} & \textbf{Target stress (MPa)} & \textbf{Init. Voltage} & \textbf{Volt. @ load}\\
+            \hline
+            44mm Solid Horiz & \begin{tabular}[c]{@{}l@{}}129.984\\ (V/MPa): 0.289\end{tabular} & 4, 9.25, 10, 10.5 & 0.531 & 1.68689, 3.20399, 3.42071, 3.5652 \\ \hline44mm Solid Vert & \begin{tabular}[c]{@{}l@{}}120.364\\ (V/MPa): 0.2676\end{tabular} & 0 & 0 & 0.\\ \hline
+    \end{tabular}
+    \end{table} \vspace{-0.5cm} 
+
+\begin{table}[ht!]
+            \renewcommand{\arraystretch}{1.5}
+            \begin{tabular}{ |p{4cm}|p{5cm}|p{2.5cm}| p{4.75cm}| }
+            \multicolumn{2}{l}{\textbf{\textit{Vessel Pressures:}}} & \multicolumn{2}{l}{Pore Fluid:H2O} \\ \hline
+            \textbf{Calibrations (V/MPa)} & \textbf{Pressures (MPa)} & \textbf{Init. Voltage} & \textbf{Volt. @ load} \\ \hline\textit{\small Pc:} 0.1456 & 2, 8.25, 7.75, 7.25 & 0.018 & 0.3092, 1.2192, 1.1464, 1.0736\\ \hline\textit{\small PpA:} 1.5083 & 2.6, 1.4, 1 & 0.023 & 3.94458, 2.13462, 1.5313 \\ \hline\textit{\small PpB:} 1.4611 & 2.6, 3, 4, 5 & -0.055 & 3.74386, 4.3283 , 5.7894 , 7.2505 \\ \hline \end{tabular}
+        \end{table} \vspace{-0.5cm} 
+
+\begin{table}[ht!]
+    \small
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{ l l } 
+        \multicolumn{2}{c}{\textbf{\textit{Displacement Transducers}}} \\
+        \textbf{\textit{Name}} & \textbf{\textit{Gain (mm/V)}} \\ \hline Horiz. Load-point &  0.658 \\ \hline Vert. Load-point &  3.51 \\ \hline Horiz. On-Board &  0.416 \\ \hline  \end{tabular}
+    \end{table} \vspace{-0.5cm} 
+
+\begin{table}[!ht]
+        \footnotesize
+        \renewcommand{\arraystretch}{1.1}
+        \begin{tabular}{ p{1cm}|p{2cm} } \rowcolor[HTML]{EFEFEF}
+            \multicolumn{2}{c}{\textit{Horizontal Servo Settings} \cellcolor[HTML]{EFEFEF}} \\ \hline P: 900 & D$_{atten}$: 10 \\ \hline
+        I: 800 & Feedback: 512 \\ \hline 
+        D: 10 & E-gain: 800 \\ \hline 
+        \multicolumn{2}{c}{\textit{Vertical Servo Settings} \cellcolor[HTML]{EFEFEF}} \\ \hline 
+        P:  & D$_{atten}$   \\ \hline 
+        I:  & Feedback:  \\ \hline
+        D:  & E-gain:  \\ \hline 
+    \end{tabular} \hfill 
+        \renewcommand{\arraystretch}{1.1}
+        \begin{tabular}{ l|l|l } \rowcolor[HTML]{EFEFEF}
+        \textit{Chilled water at HPS} & \textit{Chiller Unit} & \textit{Proc. water @ Chiller} \\ \hline 1. Temp In ($\degree$F):  & 6. Panel Temp ($\degree$F):  & 10. Temp In ($\degree$F):  \\ \hline 
+    2. Pres. In (psi):  & 7. Panel Pres. (psi):  & 11. Pres. In (psi):  \\ \hline 
+    3. Temp Out ($\degree$F):  & 8. Near Pres. In (psi): & 12. Temp Out ($\degree$F):  \\ \hline 
+    4. Pres. Out (psi): & 9. Near Pres. Out (psi): & 13. Pres. Out (psi):  \\ \hline 
+    5. Flow (lpm):  \\ \hline 
+    \multicolumn{3}{c}{\textit{Hyd. Power Supply (HPS)} \cellcolor[HTML]{EFEFEF}} \\ \hline 
+    14. Tank Temp ($\degree$C):  & 15. Temp. Out ($\degree$C):  & 16. Pres. Out (psi):  \\ \hline 
+    \end{tabular} 
+    \end{table} \vspace{-0.5cm} 
+
+\newpage 
+ \textbf{Experiment Notes}
+ \medskip
+ {\small \begin{itemize}[label=\#]
+ \setlength\itemsep{0.25em}
+ 	 \item 550 NS to 4 MPa
+ 	 \item 1400 Pc to 2 MPa
+ 	 \item 1600 saturate, PpA to 1 MPa
+ 	 \item 5800 NS to 9.25 MPa, Pc to 8.25 MPa
+ 	 \item 7150 PpA \& PpB to 2.6 MPa. attach on-board dcdts
+ 	 \item 24500 PpA to 1.4 MPa, flow-thru for 5 min. 
+ 	 \item 30000 PpB oscillations. [0.1, 1, 1, 10, 10, 1]Hz @ 1 MPa. -- run1.
+ 	 \item 907760 PpB to 3 MPa, PpA to 1 MPa, flow-thru for 5 min.
+ 	 \item 912000 PpB oscillations. [0.1, 1, 1, 10, 10, 1]Hz @ 1 MPa. -- run2. PpB PID settings not tuned well.
+ 	 \item 1820100 NS to 10 MPa, Pc to 7.75 MPa 
+ 	 \item 1821300 PpB to 4 MPa, flow-thru for 5 min.
+ 	 \item 1825200 PpB oscillations. [0.1, 1, 1, 10, 10, 1]Hz @ 1 MPa. -- run3. PpB PID settings not great for 10 Hz osc.
+ 	 \item 2714400 Pc to 7.25, PpB to 5 MPa, flow-thru for 5 min.
+ 	 \item 2718900 PpB oscillations. [0.1, 1, 1, 10, 10, 1]Hz @ 1 MPa. -- run4. PpB PID a little better @ 10 Hz osc.
+ 	 \item 3622000 Pc to 7.75 MPa, NS to 10 MPa. 
+ 	 \item 3622500 PpB to 4 MPa, flow-thru for 5 min.
+ 	 \item 3626000 PpB oscillations. [0.1, 1, 1, 10, 10, 1]Hz @ 1 MPa. -- run5. PpB PID settings not great for 10 Hz osc.
+ 	 \item 4504100 PpB, PpA, Pc to 0 MPa. NS to 10 kN.
+ 	 \item 4506100 unload NS
+ \end{itemize}} 
+
+ \end{document}
+
+\end{document}
